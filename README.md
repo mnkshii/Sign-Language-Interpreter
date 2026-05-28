@@ -60,19 +60,21 @@ The project is designed to be lightweight, real‑time, and user‑friendly. Use
 
 ---
 
-**Train Your Own Models 
-
+**Train Your Own Models**
+```bash
 Static letters (A–Y)
 python collect_landmarks.py
 python train_improved.py
-
-Dynamic gestures 
+```
+**Dynamic gestures**
+```bash
 python collect_motion.py
 python train_lstm_motion.py
+```
 ---
-**Project Structure
+**Project Structure**
 signlanguage/
-├── sign.py                     # Main Flask application
+|├── sign.py                     # Main Flask application|
 ├── collect_landmarks.py        # Collect static letter data (CSV)
 ├── collect_motion.py           # Collect dynamic gesture sequences
 ├── train_improved.py           # Train static landmark model
