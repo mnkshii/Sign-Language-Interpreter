@@ -73,6 +73,7 @@ python train_lstm_motion.py
 ```
 ---
 **Project Structure**
+```
 signlanguage/
 |├── sign.py                     # Main Flask application|
 ├── collect_landmarks.py        # Collect static letter data (CSV)
@@ -91,11 +92,15 @@ signlanguage/
 │   └── dynamic_data/
 ├── requirements.txt
 └── README.md
+```
 ---
+
 **Future Improvements**
-Support two‑handed signs.
-Add more dynamic gestures (yes, no, help, friend, etc.).
-Improve sentence‑level sentiment analysis.
+- Support two‑handed signs.
+- Add more dynamic gestures (yes, no, help, friend, etc.).
+- Improve sentence‑level sentiment analysis.
+- Add database support for user history.
+
 ---
 
 Authors
