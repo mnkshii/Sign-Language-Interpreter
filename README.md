@@ -106,9 +106,7 @@ signlanguage/
 Authors
 
 Meenakshi Pandey
-Heena
-Kalika Garg
-Om Aggarwal
+
 
 B.Tech (2nd Year)
 
